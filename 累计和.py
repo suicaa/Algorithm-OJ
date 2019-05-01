@@ -15,3 +15,4 @@ for i in range(n):
   arr.append(int(input()))
 result = cummulative_sum(arr)
 print(result)
+
