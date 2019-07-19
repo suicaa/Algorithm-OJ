@@ -1,7 +1,13 @@
 def segment(s):
-    lists = str.split(s)
+    for i in range(len(s)):
 
 
-    return lists[0]
+
+
+
+        lists = str.split(s)
+        return lists
+
+
 s = input()
 print(segment(s))

@@ -1,5 +1,6 @@
 def k_th_smallest(arr, k):
     arr.sort(reverse=False)
+    print(str.split(arr))
     return arr[k - 1]
 
 
